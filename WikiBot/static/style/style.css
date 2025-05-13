@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-image: url("https://media.istockphoto.com/id/1488335095/vector/3d-vector-robot-chatbot-ai-in-science-and-business-technology-and-engineering-concept.jpg?s=612x612&w=0&k=20&c=MSxiR6V1gROmrUBe1GpylDXs0D5CHT-mn0Up8D50mr8=");
+    background-repeat: no-repeat;
+    background-position: 35rem 10rem;
+    background-color:#82b5c8;
+    
+}
+h1{
+    color: rgb(24, 56, 70);
+}
+p{
+    color: rgb(31, 30, 30);
+}
+.home-div{
+   text-align: center;
+   text-transform: capitalize;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+   width: auto;
+   height: auto;
+   margin: auto;
+   margin-top: 10rem;
+   padding: 20px;
+   background-color:rgb(255, 255, 255,0.1);
+   border-radius: 20px;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+   display: block;
+}
+button{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    transform: scale( 1.1);
+    transition: 0.3s ease;
+    background-color: white;
+    color: black;
+}

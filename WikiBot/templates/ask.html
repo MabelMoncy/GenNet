@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="static/style/ask.css">
+</head>
+<body>
+    <div class="container">
+        <form action="/ask" method="POST">
+            <label for="">Ask GenNet</label>
+            <input type="text" name="question" placeholder="Chat here..." autocomplete="off">
+            <textarea name="answer" id="text-area-answer" placeholder="No answers yet...">{{answers}}</textarea>
+        </form>
+    </div>
+</body>
+</html>
