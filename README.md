@@ -12,7 +12,7 @@ In order to run the code in your system, follow these steps:
 2. Install a language model
    In this project, I have used llama3.2.
 
-3. Run the model in your terminal or CMD
-    ollama run llama3.2
+3. Run the model in your terminal or CMD.
+    (ollama run llama3.2)
 4. Now copy the code paste it in Vs code or any code editor/IDE, then execute
 5. GenNet is ready for its duty🤖
