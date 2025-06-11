@@ -9,7 +9,7 @@ In order to run the code in your system, follow these steps:
     For Windows: https://ollama.com/download/windows
     Download accordingly for Mac and Linux from the same website.
 
-2. Install a language model
+2. Install a language model.
    In this project, I have used llama3.2.
 
 3. Run the model in your terminal or CMD.
