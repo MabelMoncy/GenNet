@@ -1,51 +1,113 @@
-body{
-     margin: 0;
-    padding: 0;
-    display: flex;
-    background-image: url("https://media.istockphoto.com/id/1488335095/vector/3d-vector-robot-chatbot-ai-in-science-and-business-technology-and-engineering-concept.jpg?s=612x612&w=0&k=20&c=MSxiR6V1gROmrUBe1GpylDXs0D5CHT-mn0Up8D50mr8=");
-    background-repeat: no-repeat;
-    background-position: 40rem 10rem;
-    background-color:#82b5c8;
-    
+* {
+  box-sizing: border-box;
 }
-label{
-    color: blue;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #82b5c8;
+  flex-direction: column;
+  background-image: url("D:/WikiBot/static/Graident Ai Robot.jpg");
 }
-.container{
-    text-align: center;
-    text-transform: capitalize;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: auto;
-    height: auto;
-    margin-left: 20rem;
-    margin-top: 10rem;
-    padding: 20px;
-    background-color:rgb(255, 255, 255,0.1);
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+.container img {
+      width: 10em;
+      height: 10em;
+      margin-top: 5em;
+      margin-left: 10px;
+      border-radius: 50%;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+label {
+  font-family: 'Franklin Gothic Medium';
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #190000;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
 }
-input{
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
+              rgba(0, 0, 0, 0.07) 0px 2px 4px,
+              rgba(0, 0, 0, 0.07) 0px 4px 8px,
+              rgba(0, 0, 0, 0.07) 0px 8px 16px,
+              rgba(0, 0, 0, 0.07) 0px 16px 32px,
+              rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  display: flex;
+}
+
+
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  resize: vertical;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+
+  label {
+    font-size: 2rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  body {
+    background-attachment: fixed;
+  }
+
+  .container {
+    max-width: 700px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url("D:/WikiBot/static/Graident Ai Robot.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .container {
+    width: 100%;
+    max-width: 100%;
     display: block;
-    padding: 10px;
-    margin: 10px;
-    width: 500px;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-textarea{
-    display: block;
-    padding: 10px;
-    margin: 10px;
-    width: 500px;
-    height: 300px;
-    border: none;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .container img {
+    width: 10em;
+    margin-top: 1px;
+
+  }
+
 }
