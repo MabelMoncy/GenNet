@@ -14,5 +14,5 @@ In order to run the code in your system, follow these steps:
 
 3. Run the model in your terminal or CMD.
     (ollama run llama3.2)
-4. Now copy the code paste it in Vs code or any code editor/IDE, then execute
+4. Now create the required folders, copy and paste the code in Vs code or any code editor/IDE and then execute
 5. GenNet is ready for its duty🤖
