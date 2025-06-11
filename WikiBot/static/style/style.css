@@ -1,47 +1,140 @@
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-image: url("https://media.istockphoto.com/id/1488335095/vector/3d-vector-robot-chatbot-ai-in-science-and-business-technology-and-engineering-concept.jpg?s=612x612&w=0&k=20&c=MSxiR6V1gROmrUBe1GpylDXs0D5CHT-mn0Up8D50mr8=");
-    background-repeat: no-repeat;
-    background-position: 35rem 10rem;
-    background-color:#82b5c8;
-    
+* {
+  box-sizing: border-box;
 }
-h1{
-    color: rgb(24, 56, 70);
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-color: #82b5c8;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-p{
-    color: rgb(31, 30, 30);
+
+.title {
+  color: rgb(24, 56, 70);
 }
-.home-div{
-   text-align: center;
-   text-transform: capitalize;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size: 20px;
-   width: auto;
-   height: auto;
-   margin: auto;
-   margin-top: 10rem;
-   padding: 20px;
-   background-color:rgb(255, 255, 255,0.1);
-   border-radius: 20px;
-   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-   display: block;
+
+.intro_sentence {
+  color: rgb(31, 30, 30);
+  font-size: 1rem;
+  margin: 1rem 0;
 }
-button{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    background-color:black;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
+
+.home-div {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin: 2rem 1rem;
+  border-radius: 20px;
+  box-shadow: 
+    rgba(0, 0, 0, 0.07) 0px 1px 2px,
+    rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px,
+    rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px,
+    rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  width: 90%;
+  max-width: 600px;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  display:flex;
+  flex-direction: column;
 }
-button:hover{
-    transform: scale( 1.1);
-    transition: 0.3s ease;
-    background-color: white;
-    color: black;
+.home-div img{
+ width: 10em;
+ height: 10em;
+ border-radius: 50%;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ margin-left: 40%;
+ margin-top: 2rem;
+
+}
+
+button {
+  width: 10em;
+  height: 3em;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  margin-left: 40%;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: white;
+  color: black;
+}
+/* Mobile Devices (≤767px) */
+@media screen and (max-width: 1035px) {
+  body {
+    background-position: center top;
+  }
+
+  .home-div {
+    max-width: 90%;
+    margin: 2rem auto;
+    font-size: 1rem;
+  }
+
+  .home-div img {
+    width: 8em;
+    height: 8em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  button {
+    width: 8em;
+    height: 2.5em;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Tablets (≥768px) */
+@media screen and (min-width: 768px) {
+  .home-div {
+    font-size: 1.2rem;
+    margin: 4rem auto;
+  }
+}
+
+/* Laptops (≥1024px) */
+@media screen and (min-width: 1024px) {
+  body {
+    background-position: right top;
+  }
+
+  .home-div {
+    max-width: 700px;
+    margin-top: 6rem;
+  }
+}
+
+/* Large Screens (≥1441px) */
+@media screen and (min-width: 1441px) {
+  body {
+    background-position: 40rem 10rem;
+  }
+
+  .home-div {
+    max-width: 1000px;
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
