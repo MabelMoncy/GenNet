@@ -1,0 +1,11 @@
+# Security keys
+.env
+
+# Python compiled files (junk)
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+.venv/
+env/
