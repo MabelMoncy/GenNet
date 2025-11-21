@@ -1,4 +1,6 @@
 # GeNet AI
+visit the website here:
+https//:genetai.onrender.com
 view here: genetai.onrender.com
 Welcome to **GeNet AI**, a personal learning project focused on programming, Git, GitHub collaboration, and best practices like documentation and project organization. This repository features a key module called **WikiBot**, showcasing basic web development, Python scripting, project structuring, and integrating with local LLMs through Ollama's Llama 3.2.
 
